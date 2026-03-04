@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --brown-primary: #834400;
+  --brown-dark: #693600;
+  --bg-light: #f6f6f6;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #d4e5f7 0%, #f6f6f6 30%, #f6f6f6 70%, #d4e5f7 100%);
+  min-height: 100vh;
+}
